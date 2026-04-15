@@ -1,2 +1,9 @@
-<h1>Welcome to neverlandaaaa</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	let frutas = ['Maçã', 'Banana', 'Laranja'];
+</script>
+
+<ul>
+	{#each frutas as fruta (fruta)}
+		<li>{fruta}</li>
+	{/each}
+</ul>
