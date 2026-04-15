@@ -3,6 +3,8 @@
 		"svelte.svelte-vscode",
 		"esbenp.prettier-vscode",
 		"natqe.reload",
-		"formulahendry.auto-rename-tag"
+		"formulahendry.auto-rename-tag",
+		"dbaeumer.vscode-eslint",
+		"dbaeumer.vscode-eslint"
 	]
 }
